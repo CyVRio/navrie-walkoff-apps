@@ -12,7 +12,7 @@ import json
 
 class Nmap(AppBase):
     __version__ = "1.0.0"
-    app_name = "nmap"
+    app_name = "navrie_nmap"
 
     def __init__(self, redis, logger, console_logger=None):
         super().__init__(redis, logger, console_logger)
